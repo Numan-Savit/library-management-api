@@ -8,7 +8,7 @@ const bookSchema = new Schema<IBook>({
     },
     author : {
         type : String,
-        required : true
+        required : true    //https://github.com/Numan-Savit/library-management-api
     },
     genre : {
         type : String,
